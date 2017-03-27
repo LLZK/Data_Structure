@@ -20,7 +20,8 @@ else
 	printf "max is %d\n" $max
 	printf "min is %d\n" $min
 	#echo $sum
-	printf "arr is %2f\n"  $(($sum/$#))
+	arr=$(($sum/$#)) 
+	echo "ibase=10;scale=2;$sum/$#" | bc
 
 fi
 

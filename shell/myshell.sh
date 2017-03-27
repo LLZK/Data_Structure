@@ -35,7 +35,5 @@ function fun
 	fi
 }
 
-#echo $1
 fun $1
-echo $?
 #echo $sum
